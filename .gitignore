@@ -59,3 +59,8 @@ htmlcov/
 .coverage.*
 coverage.xml
 *.cover
+# Test files
+test_*.py
+debug_*.py
+create_db.py
+final_test.py
