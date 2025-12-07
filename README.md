@@ -283,7 +283,3 @@ cache_key = f"offers:{bank}:{instrument}"
 **[ATUL KUMAR / 22BTB0A40]**
 
 **Status**: All requirements completed (Parts 1-4) ✅  
-
----
-
-*This project is for educational/evaluation purposes only.*
