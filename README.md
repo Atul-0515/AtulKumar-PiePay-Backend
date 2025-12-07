@@ -41,7 +41,7 @@ Server runs at: `http://127.0.0.1:8000`
 ### Install Test Dependencies
 
 ```bash
-pip install pytest httpx
+pip install -r requirements.txt
 ```
 
 ### Run All Tests
