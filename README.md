@@ -8,7 +8,7 @@ Backend service to detect, store, and calculate best discounts from Flipkart off
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.10
+- Python 3.10 or higher (Tested on 3.10, 3.13, 3.14)
 
 ### Setup & Run
 
@@ -18,7 +18,7 @@ git clone https://github.com/Atul-0515/AtulKumar-PiePay-Backend.git
 cd AtulKumar-PiePay-Backend
 
 # Create virtual environment
-python3.10 -m venv venv
+python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
