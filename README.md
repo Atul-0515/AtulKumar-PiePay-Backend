@@ -2,8 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green.svg)](https://fastapi.tiangolo.com/)
-[![Tests](https://img.shields.io/badge/Tests-31%20passing-success.svg)](https://github.com/YOUR_USERNAME/YOUR_REPO/tree/main/tests)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Tests](https://img.shields.io/badge/Tests-31%20passing-success.svg)](https://github.com/Atul-0515/AtulKumar-PiePay-Backend/main/tests)
 
 Backend service to detect, store, and calculate best discounts from Flipkart offers.
 
