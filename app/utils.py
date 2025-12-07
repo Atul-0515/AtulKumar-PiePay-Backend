@@ -226,6 +226,15 @@ def calculate_discount(offer_text: str, offer_description: str, amount_to_pay: f
     """
     Calculate actual discount amount.
     """
+    # Check minimum order value first (applies to all offers)
+    min_pattern = r'(?:min|minimum).*?(?:order|value|booking).*?₹\s*(\d+(?:,\d+)?)'
+    min_match = re.search(min_pattern, offer_description, re.IGNORECASE)
+    
+    if min_match:
+        min_order_value = float(min_match.group(1).replace(',', ''))
+        if amount_to_pay < min_order_value:
+            return 0.0
+    
     discount = extract_discount_amount(offer_text)
     
     # Check if percentage offer
@@ -242,13 +251,5 @@ def calculate_discount(offer_text: str, offer_description: str, amount_to_pay: f
         
         return discount_amount
     
-    # Check minimum order value
-    min_pattern = r'(?:min|minimum).*?(?:order|value|booking).*?₹\s*(\d+(?:,\d+)?)'
-    min_match = re.search(min_pattern, offer_description, re.IGNORECASE)
-    
-    if min_match:
-        min_order_value = float(min_match.group(1).replace(',', ''))
-        if amount_to_pay < min_order_value:
-            return 0.0
-    
+    # Return flat discount
     return discount

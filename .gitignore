@@ -64,3 +64,11 @@ test_*.py
 debug_*.py
 create_db.py
 final_test.py
+
+# Test databases
+test.db
+piepay.db
+
+# Test databases
+test.db
+piepay.db

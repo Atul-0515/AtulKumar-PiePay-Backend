@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 from typing import List, Optional, Dict, Any
 
 
@@ -30,9 +30,7 @@ class BankCreate(BankBase):
 
 class Bank(BankBase):
     id: int
-
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class PaymentInstrumentBase(BaseModel):
@@ -45,9 +43,7 @@ class PaymentInstrumentCreate(PaymentInstrumentBase):
 
 class PaymentInstrument(PaymentInstrumentBase):
     id: int
-
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class OfferBase(BaseModel):
@@ -66,6 +62,4 @@ class Offer(OfferBase):
     id: int
     banks: List[Bank] = []
     payment_instruments: List[PaymentInstrument] = []
-
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
