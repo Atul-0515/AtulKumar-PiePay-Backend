@@ -1,5 +1,10 @@
 # PiePay Backend - Flipkart Offer Detection Service
 
+[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green.svg)](https://fastapi.tiangolo.com/)
+[![Tests](https://img.shields.io/badge/Tests-31%20passing-success.svg)](https://github.com/YOUR_USERNAME/YOUR_REPO/tree/main/tests)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Backend service to detect, store, and calculate best discounts from Flipkart offers.
 
 ## 🚀 Quick Start
@@ -270,11 +275,9 @@ cache_key = f"offers:{bank}:{instrument}"
 
 ## 👤 Author
 
-**[Your Name / Roll Number]**
+**[ATUL KUMAR / 22BTB0A40]**
 
 **Status**: All requirements completed (Parts 1-4) ✅  
-**Time**: Under 4 hours  
-**Bonus**: Payment Instrument Support implemented
 
 ---
 
