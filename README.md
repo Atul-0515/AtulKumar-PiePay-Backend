@@ -16,7 +16,8 @@ Backend service to detect, store, and calculate best discounts from Flipkart off
 
 ```bash
 # Clone and navigate
-cd piepay-backend
+git clone https://github.com/Atul-0515/AtulKumar-PiePay-Backend.git
+cd AtulKumar-PiePay-Backend
 
 # Create virtual environment
 python3.10 -m venv venv
