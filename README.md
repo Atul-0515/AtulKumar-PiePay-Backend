@@ -97,7 +97,7 @@ curl -X POST "http://127.0.0.1:8000/offer" \
                   "offerList": [
                     {
                       "provider": ["AXIS"],
-                      "offerText": {"text": "Get ₹100 cashback"},
+                      "offerText": {"text": "Get ₹500 cashback"},
                       "offerDescription": {
                         "id": "FPO001",
                         "text": "Flat ₹100 cashback. Min Order ₹5000"
