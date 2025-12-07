@@ -78,7 +78,7 @@ tests/test_parser.py::test_parse_multiple_offers PASSED                         
 
 All endpoints validated using Postman (8+ test scenarios).
 
-**[View Postman screenshots →](docs/TESTING.md)**
+**[View Postman screenshots →](TESTING.md)**
 
 ## 📚 API Endpoints
 
