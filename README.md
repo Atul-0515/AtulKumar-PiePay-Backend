@@ -74,6 +74,12 @@ tests/test_parser.py::test_parse_multiple_offers PASSED                         
 ==================================================================== 30 passed in 0.58s =====================================================================
 ```
 
+### Manual API Testing
+
+All endpoints validated using Postman (8+ test scenarios).
+
+**[View Postman screenshots →](docs/TESTING.md)**
+
 ## 📚 API Endpoints
 
 ### POST /offer
