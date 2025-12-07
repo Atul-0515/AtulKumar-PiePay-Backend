@@ -30,4 +30,4 @@ All endpoints tested using Postman.
 ## GET /offers - View All Offers
 
 **All 14 offers listed:**
-![](screenshots/postman-view-offers.png)
+![](screenshots/postman-create-offers-8.png)
