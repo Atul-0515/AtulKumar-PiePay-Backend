@@ -67,13 +67,13 @@ The test suite includes:
 
 **Expected Output:**
 ```
-tests/test_parser.py::test_parse_full_nested_structure PASSED
-tests/test_parser.py::test_parse_simplified_structure PASSED
-tests/test_discount.py::test_extract_flat_discount PASSED
-tests/test_discount.py::test_calculate_percentage_with_cap PASSED
-tests/test_api.py::test_post_offer_success PASSED
-tests/test_api.py::test_get_highest_discount PASSED
-==================== 24 passed in 2.45s ====================
+tests/test_parser.py::test_parse_direct_items PASSED                                                                                                  [ 83%]
+tests/test_parser.py::test_parse_upi_offers_without_banks PASSED                                                                                      [ 86%]
+tests/test_parser.py::test_parse_skip_offers_without_id PASSED                                                                                        [ 90%]
+tests/test_parser.py::test_extract_payment_instruments PASSED                                                                                         [ 93%]
+tests/test_parser.py::test_parse_empty_response PASSED                                                                                                [ 96%]
+tests/test_parser.py::test_parse_multiple_offers PASSED                                                                                               [100%]
+==================================================================== 30 passed in 0.58s =====================================================================
 ```
 
 ## 📚 API Endpoints
