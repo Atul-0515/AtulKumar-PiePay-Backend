@@ -13,19 +13,19 @@ All endpoints tested using Postman.
 ## GET /highest-discount - Discount Calculations
 
 **AXIS Bank @ ₹10,000 = ₹200:**
-![](screenshots/postman-discount-axis-10k.png)
+![](screenshots/postman-create-offers-3.png)
 
 **AXIS Bank @ ₹6,000 = ₹100:**
-![](screenshots/postman-discount-axis-6k.png)
+![](screenshots/postman-create-offers-4.png)
 
 **ICICI Bank @ ₹20,000 = ₹500 (capped):**
-![](screenshots/postman-discount-icici-20k.png)
+![](screenshots/postman-create-offers-5.png)
 
 **With Payment Instrument (CREDIT):**
-![](screenshots/postman-discount-with-instrument.png)
+![](screenshots/postman-create-offers-6.png)
 
 **Invalid Bank = ₹0:**
-![](screenshots/postman-discount-invalid-bank.png)
+![](screenshots/postman-create-offers-7.png)
 
 ## GET /offers - View All Offers
 
