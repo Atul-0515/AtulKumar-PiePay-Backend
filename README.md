@@ -19,6 +19,10 @@ cd AtulKumar-PiePay-Backend
 
 # Create virtual environment
 python -m venv venv
+
+# If 'python' command not found, try:
+# python3 -m venv venv
+
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
