@@ -49,7 +49,6 @@ Thumbs.db
 *.log
 
 # Test files (optional - you might want to keep these)
-test_*.py
 debug_*.py
 create_db.py
 
@@ -60,7 +59,6 @@ htmlcov/
 coverage.xml
 *.cover
 # Test files
-test_*.py
 debug_*.py
 create_db.py
 final_test.py
